@@ -1,11 +1,11 @@
 # 𝐌𝐎𝐇𝐀𝐌𝐄𝐃 𝐗 𝐙𝐈𝐍𝐎
 
-![صورة الحساب الشخصي](https://i.imgur.com/ScaJztZ.jpeg)
-<img src="https://user-images.ithubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="500">
+![صورة الحساب الشخصي](https://i.imgur.compeg)
+<img src=".ithubusercontenm/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="500">
 <br><br>
 
 # هذا مشروع ميراي
-<img src="https://i.postimg.cc/2SPY4pCC/Picsart-24-11-26-10-03-45-372.jpg" width="500">
+<img src="https://i.p5-372.jpg" width="500">
 <br><br>
 
 # ❤️
