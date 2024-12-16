@@ -2,7 +2,7 @@ module.exports.config = {
 name: "اطرديني",
 version: "1.0.0",
 hasPermssion: 0,
-credits: "عمر",
+credits: "عبدو_96",
 description: "تطردك من المجموعة",
 commandCategory: "خدمات",
 usages: "  اذا انت ادمن ومتريد الامر يشتغل ببساطه نزل البوت من الادمن",
