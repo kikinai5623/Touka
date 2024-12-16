@@ -2,7 +2,7 @@ module.exports.config = {
     name: "كنية",
     version: "1.0.1",
     hasPermssion: 1,
-    credits: "عمر",
+    credits: "عبدو_96",
     description: "يخلي كنية لاي عضو ينضم",
     commandCategory: "مسؤولي المجموعات",
     usages: "[اضف <الاسم> /حذف] ",
