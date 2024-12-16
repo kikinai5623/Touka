@@ -35,7 +35,7 @@ function getUserGender(genderCode) {
 }
 
 module.exports.config = {
-  name: "يدي",
+  name: "مع",
   version: "1.0.3",
   hasPermssion: 0,
   credits: "𝒚𝒐𝒅𝒂 𝒕𝒂𝒌𝒂𝒉𝒂𝒔𝒉𝒊",
