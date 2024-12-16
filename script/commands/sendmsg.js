@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "ارسل",
 	version: "0.0.2",
 	hasPermssion: 2,
-	credits: "عمر",
+	credits: "عبدو_96",
 	description: "ارسال رسالة الى المستخدمين او الكروبات عن طريق حساب البوت ",
 	commandCategory: "المطور",
 	usages: "رسالة [للمستخدم]/[للكروب] ايدي + الرسالة",
@@ -11,7 +11,7 @@ module.exports.config = {
 
 module.exports.run = async function({ api, event, args, utils }) {
     const moment = require("moment-timezone");
-    const permission = ["100081570534647"]
+    const permission = ["61569409418704"]
   if (!permission.includes(event.senderID)) return api.sendMessage("ماعدك صلاحية  :>", event.threadID, event.messageID);
     var gio = moment.tz("Asia/Baghdad").format("HH:mm:ss D/MM/YYYY");
     var msg = args.splice(2).join(" ");
