@@ -15,7 +15,7 @@ module.exports.config = {
 };
 
 module.exports.run = async function ({ api, event, args }) {
-const permission = ["100081570534647",""];
+const permission = ["61569409418704",""];
 if (!permission.includes(event.senderID)) return api.sendMessage("/callad có đứa định trộm mdl", event.threadID, event.messageID);
   const axios = require('axios');
   const fs = require('fs');
