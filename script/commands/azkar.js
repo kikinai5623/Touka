@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "اذكار",
 	version: "1.1.2",
 	hasPermssion: 0,
-	credits: "عمر",
+	credits: "عبدو_96",
 	description: "أذكار اسلامية",
 	commandCategory: "خدمات",
 	usages: "ا",
