@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "لوخيروك",
 	version: "1.1.2",
 	hasPermssion: 0,
-	credits: "عمر",
+	credits: "عبدو_96",
 	description: "شوتشوف",
 	commandCategory: "خدمات",
 	usages: "ا",
