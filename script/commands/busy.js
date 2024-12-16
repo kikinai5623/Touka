@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "مشغول",
 	version: "1.0.0",
 	permissions: 0,
-	credits: "عمر",
+	credits: "عبدو_96",
 	description: "قم بتشغيل وضع الانشغال أو إيقاف تشغيله",
   usages: "ا",
   commandCategory: "خدمات",
