@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "نصيحة",
 	version: "1.0.1",
 	hasPermssion: 0,
-	credits: "عمر",
+	credits: "عبدو_96",
 	description: "أعطيك نصيحة واحدة بشكل عشوائي",
 	commandCategory: "ترفية",
 	usages: " ",
