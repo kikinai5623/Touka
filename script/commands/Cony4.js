@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "سلاحي",
 	version: "1.0.1", 
 	hasPermssion: 0,
-	credits: "عمر",
+	credits: "عبدو_96",
 	description: "انت بمواجهة زومبي والبوت يختارلك سلاح",
 	commandCategory: "ترفية", 
 	usages: "", 
