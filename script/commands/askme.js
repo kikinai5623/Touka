@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "كت",
 	version: "1.1.2",
 	hasPermssion: 0,
-	credits: "عمر",
+	credits: "عبدو_96",
 	description: "البوت يسئلك اسئله عشوائيه",
 	commandCategory: "ترفية",
 	usages: "ا",
