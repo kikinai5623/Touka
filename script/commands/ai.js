@@ -5,7 +5,7 @@ module.exports.config = {
     name: "بوت",
     version: "1.0.0",
     hasPermission: 0,
-    credits: "ZINO X MOHAMED",
+    credits: "عبدو_96",
     description: "ذكاء اصطناعي",
     usePrefix: false,
     commandCategory: "خدمات",
