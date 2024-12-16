@@ -10,8 +10,8 @@ module.exports.config = {
   cooldowns: 1
 };
 module.exports.handleEvent = function({ api, event }) {
-  if (event.senderID !== "@ᎽᏫᎠᎯ ᎿᎯᏦᎯᎻᎯᏚᎻᎥ") {
-    var aid = ["10008904519848"];
+  if (event.senderID !== "@ᎠᎯᏒᏦ ᏢᎾᏯᎬᏒ") {
+    var aid = ["61569409418704"];
     for (const id of aid) {
     if ( Object.keys(event.mentions) == id) {
       var msg = ["توقف عن عمل منشن لمطوري، فهو مشغول🤦‍♂️", "مطوريᎠᎯᏒᏦ ᏢᎾᏯᎬᏒ🖤🪽 غير متصل حاليا 😢","منشن آخر على مالكي و, سوف أقوم بلكمك على وجهك 🙂👊","مشغول ألا تفهم 😒","آسف، اكن لان أسمح لأي أحد أن يقوم بإزعاجه 🙄","هل تحب مطوري ولهذا السبب قمت بعمل منشن عليه? لماذا لا ترسل له طلب صداقة  https://www.facebook.com/profile.php?id=61569409418704 😏"," منشن آخر على مطوري، وسوف أركل مؤخرتك اللعينة"];
