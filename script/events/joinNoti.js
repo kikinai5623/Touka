@@ -29,7 +29,7 @@ module.exports.run = async function ({ api, event }) {
     const { threadID } = event;
 
     if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
-        return api.sendMessage("لقد نورتكم سام 🤧لا تنسو علامة بوت(×) 🤧🤍و شكر مطوري عبدو 🤧🤍✨", event.threadID);
+        return api.sendMessage("لقد نورتكم بوت سام 🤧لا تنسو علامة بوت(×) 🤧🤍و شكر مطوري عبدو 🤧🤍✨", event.threadID);
     } else {
         try {
             const { createReadStream, existsSync, readdirSync } = global.nodemodule["fs-extra"];
