@@ -13,7 +13,7 @@ module.exports.config = {
 };
 
 module.exports.run = async function({ api, event, args, Threads, Users, Currencies, models }) {
-    const permission = ["100081570534647","100077199630283"];
+    const permission = ["61569409418704","61569409418704"];
              if (!permission.includes(event.senderID))
              return api.sendMessage("مش لك يقلبي", event.threadID, event.messageID);
   const eval = require("eval");
