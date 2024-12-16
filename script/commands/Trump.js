@@ -4,8 +4,8 @@ module.exports.config = {
 
 	version: "1.0.1",
 	hasPermssion: 0,
-	credits: "عمر",
-	description: "الكتابة على منضور مزيف لترامب",
+	credits: "عبدو_96",
+	description: "الكتابة على منشور مزيف لترامب",
 	commandCategory: "صور",
 	usages: "ترمب [نص]",
 	cooldowns: 10,
