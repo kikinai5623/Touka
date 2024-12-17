@@ -19,51 +19,51 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   var id = event.senderID;
   var name = await Users.getNameUser(event.senderID);
 
-  var tl = ["انا لحين نايمة انقلع من امامي","ماذا هناك😑""أتعلم ان لوفي لديه القدرة ليلتهم المجموعة كلها هاهاها","هوي هوي ماذا تريد يا أيها الفتى اللعين","هل هذاا الشخص اللعين لا يصمت اوجع رأسي بنباحه","هل تريد ان تهلك قبل موعدك","حسنا فقط توقف عن النباح هاهاها ماذا هناك"];
+  var tl = ["معاك😍✨","😑تفضل شو بدك"];
   var rand = tl[Math.floor(Math.random() * tl.length)]
 
     if ((event.body.toLowerCase() == "احبك") || (event.body.toLowerCase() == "أحبك")) {
-     return api.sendMessage("سأترك الحب لسانجي وأحتفظ بقوتي", threadID);
+     return api.sendMessage("انا ايضا احبك😍✨", threadID);
    };
 
     if ((event.body.toLowerCase() == "شكرا") || (event.body.toLowerCase() ==  "هه")) {
-     return api.sendMessage("انقلع من أمامي ياحشره", threadID);
+     return api.sendMessage("عفو😊🌷", threadID);
    };
 
     if ((event.body.toLowerCase() == "فخامة") || (event.body.toLowerCase() == "فخامه")) {
-     return api.sendMessage("بالطبع هذا المتوقع من ملك الجحيم رورونوا زورو", threadID);
+     return api.sendMessage("من ذوقك😊✨", threadID);
    };
 
    if ((event.body.toLowerCase() == "صباح الخير") || (event.body.toLowerCase() == "صباح")) {
-     return api.sendMessage("أوهايو يا ايها لعين", threadID);
+     return api.sendMessage("صباح النور😍🌷", threadID);
    };
 
    if ((event.body.toLowerCase() == "كيفكم") || (event.body.toLowerCase() == "كيفك")) {
-     return api.sendMessage("بأسوء الأحوال", threadID);
+     return api.sendMessage("الحمدلله و انت/ي", threadID);
    };
 
    if ((event.body.toLowerCase() == "اتفق") || (event.body.toLowerCase() == "أتفق")) {
-     return api.sendMessage("اياً كان ما تتحدثون عنه لكنني لا اتفق معك يا جرذ", threadID);
+     return api.sendMessage("اي شي ف انا متفقة معاكم😀✨", threadID);
    };
 
   if ((event.body.toLowerCase() == "نامو") || (event.body.toLowerCase() == "اصنام")) {
-     return api.sendMessage("قد ذهبو لمطابخهم مع ذو الحواجب الملتويه", threadID);
+     return api.sendMessage("نام انت ايضا", threadID);
    };
 
    if ((event.body.toLowerCase() == "مرحبا") || (event.body.toLowerCase() == "جيت")) {
-     return api.sendMessag("تبا عد من حيث جئت احسن ما افشخك  سَــانْــتُــورْيُــو ⚔️ اَلــهَــلاَك  ", threadID);
+     return api.sendMessag("مراحب نورت يا اغلا ناس✨🤍", threadID);
    };
 
    if ((event.body.toLowerCase() == "هلو") || (event.body.toLowerCase() == "هلا")) {
-     return api.sendMessage("اتيت يا أيها اللعين", threadID);
+     return api.sendMessage("اهلا بالغالي✨🤍", threadID);
    };
 
    if ((event.body.toLowerCase() == "باكا") || (event.body.toLowerCase() == "بوت غبي")) {
-     return api.sendMessage("يا شباب هل يمكنكم ايقاف هذا الكلب عن النباح قد صم أذناي", threadID);
+     return api.sendMessage("هناك كلاب تنبه قولو لها تسكت 🫢✨", threadID);
    };
 
    if ((event.body.toLowerCase() == "جميل") || (event.body.toLowerCase() == "حلو")) {
-     return api.sendMessage("يا أيها النذل أنا هو الاقوى اترك الجمال ورقي للفتيات لأمثال سانجي", threadID);
+     return api.sendMessage("متلك 🫢🤍", threadID);
    };
 
    if ((event.body.toLowerCase() == "مح") || (event.body.toLowerCase() == "بحبك")) {
@@ -71,16 +71,16 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
 
-   if ((event.body.toLowerCase() == ".زوجني") || (event.body.toLowerCase() == "زوجني")) {
-     return api.sendMessage("️يال كرامتك المنخفضه انقلع قبل أن اقطعك" , threadID);
+   if ((event.body.toLowerCase() == "زوجني") || (event.body.toLowerCase() == "زوجني")) {
+     return api.sendMessage("️لست شيخ يلا انقلع " , threadID);
    };
 
    if ((event.body.toLowerCase() == "كيف الحال") || (event.body.toLowerCase() == "كيف حالك ")) {
-     return api.sendMessage("بخير يا أيها اللعين", threadID);
+     return api.sendMessage("بخير بشوفتك😊🤍", threadID);
    };
 
    if ((event.body.toLowerCase() == "الحمدلله") || (event.body.toLowerCase() == "تمام وانت")) {
-     return api.sendMessage("ليس لدي وقت لك هل رأيت شخصاً أحمق ذو حواجب ملتويه أسمه سانجي اللعين", threadID);
+     return api.sendMessage("دايما يارب ✨🌷", threadID);
    };
 
    if ((event.body.toLowerCase() == "سانجي") || (event.body.toLowerCase() == "فينسموك سانجي")) {
@@ -92,51 +92,51 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "السلام عليكم") || (event.body.toLowerCase() == "سلام")) {
-     return api.sendMessage("️وعليكم السلام منذ متى وانت تسلم على الناس يا باكا", threadID);
+     return api.sendMessage("️وعليكم السلام 😊✨", threadID);
    };
 
    if ((event.body.toLowerCase() == "وداعا") || (event.body.toLowerCase() == "أنا ذاهب")) {
-     return api.sendMessage("️أخبار رائعة لا تعد مجدداً", threadID);
+     return api.sendMessage("️أخبار رائعة لا تعد مجدداً😀✨", threadID);
    };
 
    if ((event.body.toLowerCase() == "من أنت") || (event.body.toLowerCase() == "مين انت")) {
-     return api.sendMessage("️انا رورونوا زورو ملك الجحيم النائب الأول للوفي ملك القراصنة المستقبلي سأصبح أعظم سياف يوماً ما والعالم سيشهد على هذا", threadID);
+     return api.sendMessage("️انا عمتكم سام التي لا تنام🫢✨", threadID);
    };
 
    if ((event.body.toLowerCase() == "بوت احمق") || (event.body.toLowerCase() == "بوت غبي")) {
-     return api.sendMessage("️من أدخل هذه الحيوانات إلى هنا إن لم يصمت سوف أقطعه وأعطيه لحماً للوفي", threadID);
+     return api.sendMessage("️لم يقل لك ا ان تصف لي نفسك✨👽", threadID);
    };
 
-   if ((event.body.toLowerCase() == "يودا") || (event.body.toLowerCase() == "شريان")) {
-     return api.sendMessage("️عمك يتمرن حالياً أتركه وشأنه يا أيها اللعين هل تفكر بـ أن الجميع مثلك احمق مثلك إن ناديته مجددا لا تلمني ان أرسلتك للجحيم", threadID);
+   if ((event.body.toLowerCase() == "عبدو") || (event.body.toLowerCase() == "عبود")) {
+     return api.sendMessage("️انه مطوري اتركه وشأنه دعه يرتاح😑🤍", threadID);
    };
 
    if ((event.body.toLowerCase() == "المالك") || (event.body.toLowerCase() == "المطور")) {
-     return api.sendMessage("️اتقصد صديقي يودا من افضل المبرمجين ومن افضل المقاتلين لكن انا الأقوى طبعاً", threadID);
+     return api.sendMessage("️عبدو عمك وعم عيالك✨😀", threadID);
    };
 
    if ((event.body.toLowerCase() == "مساء الخير") || (event.body.toLowerCase() == "مساء الخير")) {
-     return api.sendMessage(" هوي هوي كيف الحال️", threadID);
+     return api.sendMessage("مساء النور ", threadID);
    };
 
    if ((event.body.toLowerCase() == "🙂") || (event.body.toLowerCase() == "🙂")) {
-     return api.sendMessage("وجه الزفت انقلع من امامي", threadID);
+     return api.sendMessage("وجهك ابشع من حياتي🤗✨", threadID);
    };
 
    if ((event.body.toLowerCase() == "جوعان") || (event.body.toLowerCase() == "عطشان")) {
-     return api.sendMessage("هوي هل لديك بعض الساكي يا فتى", threadID);
+     return api.sendMessage("روح نام😑", threadID);
    };
 
    if ((event.body.toLowerCase() == "بوت") || (event.body.toLowerCase() == "وينك")) {
-     return api.sendMessage("انا هنا إستعد لقطع كل عضمة في جسدك اللعين قَــاطِــعُ ⚔️ اُلْــغُــول", threadID);
+     return api.sendMessage("عيونها✨🤗", threadID);
    };
 
    if ((event.body.toLowerCase() =="مع السلامه") || (event.body.toLowerCase() == "بدي انام")) {
-     return api.sendMessage("وداعا يا فتى أتمنى لك أحلاماً سيئه", threadID);
+     return api.sendMessage("في حفظ الله ✨🤍", threadID);
    };
 
    if ((event.body.toLowerCase() == "تصبحون على خير") || (event.body.toLowerCase() == "تصبح على خير")) {
-     return api.sendMessage("إذهب للنوم أحلام جحيم سعيده لك", threadID);
+     return api.sendMessage("قدامك كل خير", threadID);
    };
 
    if ((event.body.toLowerCase() == "الساكي") || (event.body.toLowerCase() == "ساكي")) {
@@ -148,18 +148,18 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "سنجل") || (event.body.toLowerCase() == "وحيد")) {
-     return api.sendMessage("ثق بنفسك وضع كبريائك أولاً وكرامتك إسعى نحو هدفك لا تقل أني سقطتت وخسرت بل ثق بنفسك و يجب ان تنهض بشكل أقوى نحو هدفك فالعالم لن يبقي به ضعفاء", threadID);
+     return api.sendMessage("روح تزوج✨🙂", threadID);
    };
 
    if ((event.body.toLowerCase() == "راح البوت") || (event.body.toLowerCase() == "وين راح")) {
-     return api.sendMessage("وهل أنا الذي هنا شبح يا حشره", threadID);
+     return api.sendMessage("لسا هون جرحت احاصيصي🙂💔", threadID);
    };
 
    if ((event.body.toLowerCase() == "كم عمرك ") || (event.body.toLowerCase() == "كم عمرك ")) {
-     return api.sendMessage("لا شأن لك بعمري", threadID);
+     return api.sendMessage("عمري مطوري🤗🤍", threadID);
    };
 
-  if (event.body.indexOf("زورو") == 0 || (event.body.indexOf("رورونوا") == 0)) {
+  if (event.body.indexOf("سام") == 0 || (event.body.indexOf("سيمو") == 0)) {
     var msg = {
       body: `${name}, ${rand}`
     }
