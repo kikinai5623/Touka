@@ -37,9 +37,9 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 				body: ""
 			}
 			api.sendMessage(sad, threadID, messageID);
-    api.setMessageReaction("🐐", event.messageID, (err) => {}, true)
+    api.setMessageReaction("🤍", event.messageID, (err) => {}, true)
           };
-    if(react.includes("زورو") || react.includes("دييم") || react.includes("احبك") || react.includes("بوت") || react.includes("محح") || react.includes("يودا") || react.includes("مطور") || react.includes("ضياء") || react.includes("صباح") || react.includes("تصبحون") || react.includes("ثباحو") || react.includes("ثباحوو") || react.includes("صباحو") || react.includes("هلا") || react.includes("هلاوات") || react.includes("شلونكم") || react.includes("الحمدالله") || react.includes("روعه") || react.includes("المطور")) {
+    if(react.includes("سام") || react.includes("دييم") || react.includes("احبك") || react.includes("بوت") || react.includes("محح") || react.includes("عبدو") || react.includes("مطور") || react.includes("عبود") || react.includes("صباح") || react.includes("تصبحون") || react.includes("ثباحو") || react.includes("ثباحوو") || react.includes("صباحو") || react.includes("هلا") || react.includes("هلاوات") || react.includes("شلونكم") || react.includes("الحمدالله") || react.includes("روعه") || react.includes("المطور")) {
       var heart = {
 				body: ""
 			}
