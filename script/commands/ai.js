@@ -2,7 +2,7 @@ const axios = require('axios');
 const path = require('path');
 
 module.exports.config = {
-    name: "بوت",
+    name: "꧁",
     version: "1.0.0",
     hasPermission: 0,
     credits: "عبدو_96",
