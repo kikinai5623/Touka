@@ -44,7 +44,7 @@ module.exports.run = async function ({ api, event, args }) {
             }, threadID, messageID);
         }
 
-        const new_api_url = `https://playground.y2pheq.me/gpt4?prompt=${encodeURIComponent(prompt)}`;
+        const new_api_url = `https://api.joshweb.click/api/gpt-4o?q=hi&uid=${encodeURIComponent(prompt)}`;
         const response = await axios.get(new_api_url);
 
         if (response.data && response.data.result) {
