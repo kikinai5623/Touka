@@ -21,7 +21,6 @@
 
 ## logo.txt لتغيير لوغو ادخل ملف
 
-# [موقع ابتايم](https://uptime-zino.onrender.com/)
 
 
 # شكرًا لكم على دعمكم  ❤
